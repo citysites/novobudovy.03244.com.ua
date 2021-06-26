@@ -1,0 +1,48 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page18133856.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^header$ page18133415.html [NC]
+RewriteRule ^header/$ page18133415.html [NC]
+
+RewriteRule ^footer$ page18133647.html [NC]
+RewriteRule ^footer/$ page18133647.html [NC]
+
+RewriteRule ^novobudovy$ page18133856.html [NC]
+RewriteRule ^novobudovy/$ page18133856.html [NC]
+
+RewriteRule ^yadro$ page18235276.html [NC]
+RewriteRule ^yadro/$ page18235276.html [NC]
+
+RewriteRule ^yadro-dozvil$ page18294995.html [NC]
+RewriteRule ^yadro-dozvil/$ page18294995.html [NC]
+
+RewriteRule ^yadro-expert$ page18295151.html [NC]
+RewriteRule ^yadro-expert/$ page18295151.html [NC]
+
+RewriteRule ^victoria$ page18295843.html [NC]
+RewriteRule ^victoria/$ page18295843.html [NC]
+
+RewriteRule ^sribnahata$ page18418656.html [NC]
+RewriteRule ^sribnahata/$ page18418656.html [NC]
+
+RewriteRule ^budovy$ page18433290.html [NC]
+RewriteRule ^budovy/$ page18433290.html [NC]
+
+RewriteRule ^central$ page18440642.html [NC]
+RewriteRule ^central/$ page18440642.html [NC]
+
+RewriteRule ^naglibova$ page18457389.html [NC]
+RewriteRule ^naglibova/$ page18457389.html [NC]
+
+RewriteRule ^partner$ page18505757.html [NC]
+RewriteRule ^partner/$ page18505757.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+

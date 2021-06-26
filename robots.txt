@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: /page18133415.html
+Disallow: /header
+Disallow: /page18133647.html
+Disallow: /footer
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+Sitemap: http://novobudovy.03244.com.ua/sitemap.xml
+Host: novobudovy.03244.com.ua
