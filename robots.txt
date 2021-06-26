@@ -1,7 +1,9 @@
 User-Agent: *
 Disallow: /page18133415.html
+Disallow: /header.html
 Disallow: /header
 Disallow: /page18133647.html
+Disallow: /footer.html
 Disallow: /footer
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
